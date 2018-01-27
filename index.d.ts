@@ -29,11 +29,11 @@ export default class MusicControl {
     /**
      * Define state status.
      */
-    static STATE_PLAYING: NativeMusicControl //  Playing. Ex: when playing audio again.
-    static STATE_PAUSED: NativeMusicControl // Paused
-    static STATE_ERROR: NativeMusicControl // Error
-    static STATE_STOPPED: NativeMusicControl // Stopped
-    static STATE_BUFFERING: NativeMusicControl // Buffering
+    static STATE_PLAYING: NativeMusicControl.STATE_PLAYING //  Playing. Ex: when playing audio again.
+    static STATE_PAUSED: NativeMusicControl.STATE_PAUSED // Paused
+    static STATE_ERROR: NativeMusicControl.STATE_ERROR // Error
+    static STATE_STOPPED: NativeMusicControl.STATE_STOPPED // Stopped
+    static STATE_BUFFERING: NativeMusicControl.STATE_BUFFERING // Buffering
 
     // Rating is not supported on iOS. This is kept here for compatibility
     // static RATING_HEART: 0;
